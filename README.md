@@ -99,7 +99,7 @@ With this we calculate the average
 Here we tell the program that if the score of the calculation performed is less than or equal to 70, its average is GOOD.
 </p>
 
-![alt text](image-4.png)
+![alt text](image-5.png)
 
 ---
 
@@ -109,7 +109,7 @@ Here we tell the program that if the score of the calculation performed is less 
 In this part we tell the program that if the score is less than or equal to 30 it is REGULAR
 </p>
 
-![alt text](image-5.png)
+![alt text](image-6.png)
 
 ---
 
@@ -119,7 +119,7 @@ In this part we tell the program that if the score is less than or equal to 30 i
 And finally, we tell you that if none of the above conditions were met, meaning the score is not less than 30 but also not less than 70, we tell you that your average is EXCELLENT.
 </p>
 
-![alt text](image-6.png)
+![alt text](image-7.png)
 
 ---
 

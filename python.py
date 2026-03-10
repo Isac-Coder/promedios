@@ -1,9 +1,11 @@
 from limpiar_pantalla import limpiar_pantalla
 
 while True:
+    
     limpiar_pantalla()
     emocionales = int(input("Ingrese su calificación en habilidades emocionales (0-100):\n "))
     limpiar_pantalla()
+    
     if emocionales > 100:
         print("El puntaje no puede ser superior a 100. Por favor, ingrese un valor válido.\n")
         input("Presione Enter para continuar...")
@@ -16,7 +18,7 @@ while True:
         continue
     else:
         emocionales = emocionales * 0.2
-        
+    
     ingles = int(input("Ingrese su calificación en inglés (0-100):\n "))
     
     if ingles > 100:
@@ -60,3 +62,6 @@ while True:
         
     else:
         print("Su puntaje final es: EXCELENTE", int(puntaje), "y ha aprobado con éxito.")
+        
+        
+        
