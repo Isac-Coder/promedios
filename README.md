@@ -1,7 +1,11 @@
 # _SEMESTER AVERAGE CALCULATOR_
 ---
-
-## _First part_
+## _Description_
+<p>
+This Python program calculates a student's final score based on three different evaluation areas: emotional skills, English, and development.
+Each score must be entered by the user with a value between 0 and 100, and the program validates the input to ensure it is within the allowed range.
+</p>
+### _First part_
 
 <p>
 In this section we ask the user to enter the grade they received in Socio-emotional Skills, which is equivalent to 20% of the final average.
