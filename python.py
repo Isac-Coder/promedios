@@ -3,19 +3,21 @@ ingles = 20%
 HSE = 20%
 regular, bueno, excelente
 """
+from limpiar_pantalla import limpiar_pantalla
 
 while True:
-
+    limpiar_pantalla()
     emocionales = int(input("Ingrese su calificación en habilidades emocionales (0-100):\n "))
-    
+    limpiar_pantalla()
     if emocionales > 100:
         print("El puntaje no puede ser superior a 100. Por favor, ingrese un valor válido.\n")
+        input("Presione Enter para continuar...")
+        limpiar_pantalla()
         continue
-    elif emocionales < 0:
-        print("El puntaje no puede ser inferior a 0. Por favor, ingrese un valor válido.\n")
-        continue
-    elif emocionales < 10:
-        print("El puntaje no puede ser inferior a 10. Por favor, ingrese un valor válido.\n")
+    elif emocionales < 0 or emocionales < 10:
+        print("El puntaje no puede ser inferior a 0 o a 10. Por favor, ingrese un valor válido.\n")
+        input("Presione Enter para continuar...")
+        limpiar_pantalla()
         continue
     else:
         emocionales = emocionales * 0.2
@@ -24,12 +26,13 @@ while True:
     
     if ingles > 100:
         print("El puntaje no puede ser superior a 100. Por favor, ingrese un valor válido.\n")
+        input("Presione Enter para continuar...")
+        limpiar_pantalla()
         continue
-    elif ingles < 0:
-        print("El puntaje no puede ser inferior a 0. Por favor, ingrese un valor válido.\n")
-        continue
-    elif ingles < 10:
-        print("El puntaje no puede ser inferior a 10. Por favor, ingrese un valor válido.\n")
+    elif ingles < 0 or ingles < 10:
+        print("El puntaje no puede ser inferior a 0 o a 10. Por favor, ingrese un valor válido.\n")
+        input("Presione Enter para continuar...")
+        limpiar_pantalla()
         continue
     else:
         
@@ -39,12 +42,13 @@ while True:
 
     if desarrollo > 100:
         print("El puntaje no puede ser superior a 100. Por favor, ingrese un valor válido.\n")
+        input("Presione Enter para continuar...")
+        limpiar_pantalla()
         continue
-    elif desarrollo < 0:
-        print("El puntaje no puede ser inferior a 0. Por favor, ingrese un valor válido.\n")
-        continue
-    elif desarrollo < 10:
-        print("El puntaje no puede ser inferior a 10. Por favor, ingrese un valor válido.\n")
+    elif desarrollo < 0 or desarrollo < 10:
+        print("El puntaje no puede ser inferior a 0 o a 10. Por favor, ingrese un valor válido.\n")
+        input("Presione Enter para continuar...")
+        limpiar_pantalla()
         continue
     else:
         
