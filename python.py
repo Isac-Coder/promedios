@@ -1,8 +1,3 @@
-"""desarrollo = 60%
-ingles = 20%
-HSE = 20%
-regular, bueno, excelente
-"""
 from limpiar_pantalla import limpiar_pantalla
 
 while True:
